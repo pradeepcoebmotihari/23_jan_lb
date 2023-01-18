@@ -1,6 +1,6 @@
 ---
 - hosts: server
-  user: ansible
+  user: ranjan
   become: yes
   connection: ssh
   tasks:
