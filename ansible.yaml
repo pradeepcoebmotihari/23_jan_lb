@@ -8,6 +8,4 @@
       action: yum name=httpd state=present
     - name: restart
       action: service name=httpd state=restarted
-      copy:
-        src: webapp/target/webapp.war
-        dest: /usr/local/tomcat10/webapps/
+    
