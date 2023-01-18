@@ -6,3 +6,5 @@
   tasks:
     - name: install httpd on linux
       action: yum name=httpd state=present
+    - name: restart
+      action: service name=httpd state=restart
