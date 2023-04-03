@@ -1,6 +1,6 @@
 ---
 - hosts: server
-  user: ranjan
+  user: ranjan1
   become: yes
   connection: ssh
   tasks:
